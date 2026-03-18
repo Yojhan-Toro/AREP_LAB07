@@ -230,7 +230,7 @@ docker run -d -p 35000:35000 --name lab07container yojhan23/lab07
 http://<public-dns-ec2>:35000/index.html
 ```
 
-### Evidencia — AWS EC2
+### Evidencia despliegue — AWS EC2
 
 https://youtu.be/pT3MURvQnXU 
 
