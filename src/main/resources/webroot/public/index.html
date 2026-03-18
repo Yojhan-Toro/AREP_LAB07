@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Services Framework</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>AREP — Micro Web Framework</h1>
+    <p class="subtitle">Web Framework Development for REST Services and Static File Management</p>
+    <p class="author">Yojhan Toro Rivera</p>
+
+    <h2>Endpoints disponibles</h2>
+    <ul>
+        <li><a href="/App/pi">/App/pi</a> — Retorna el valor de π</li>
+        <li><a href="/App/e">/App/e</a> — Retorna el número de Euler</li>
+        <li><a href="/App/hello?name=Pedro">/App/hello?name=Pedro</a> — Saluda por nombre</li>
+    </ul>
+
+    <h2>Control del servidor</h2>
+    <p style="margin-bottom:10px; color:#666; font-size:0.9rem;">
+        Envía una señal de apagado al servidor.
+    </p>
+    <button class="btn-danger" onclick="shutdownServer()">Apagar servidor</button>
+    <span id="shutdownMsg"></span>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
